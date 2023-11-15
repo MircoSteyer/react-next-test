@@ -5,7 +5,7 @@ describe("Header Component", () => {
   it("should render the <header> html tag", () => {
     render(<Header />);
 
-    const headerElement: HTMLElement = screen.getByRole("banner");
+    const headerElement: HTMLElement = screen.getByRole("???");
 
     expect(headerElement).toBeInTheDocument();
   });
@@ -13,7 +13,7 @@ describe("Header Component", () => {
 it("renders the Header component", () => {
   render(<Header />);
 
-  const editableSwitch = screen.getByRole("switch");
+  const editableSwitch = screen.getByRole("???");
 
   expect(editableSwitch).toBeInTheDocument();
 });
